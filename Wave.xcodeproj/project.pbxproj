@@ -12,6 +12,9 @@
 		EAE42B331E6D6246004E79AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE42B311E6D6246004E79AD /* Main.storyboard */; };
 		EAE42B351E6D6246004E79AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE42B341E6D6246004E79AD /* Assets.xcassets */; };
 		EAE42B381E6D6246004E79AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE42B361E6D6246004E79AD /* LaunchScreen.storyboard */; };
+		EAE42B421E6D6260004E79AD /* SegmentedProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE42B3F1E6D6260004E79AD /* SegmentedProgressBarView.swift */; };
+		EAE42B431E6D6260004E79AD /* SegmentedProgressBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE42B401E6D6260004E79AD /* SegmentedProgressBarView.xib */; };
+		EAE42B471E6D647F004E79AD /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE42B461E6D647F004E79AD /* ReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		EAE42B341E6D6246004E79AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAE42B371E6D6246004E79AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAE42B391E6D6246004E79AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE42B3F1E6D6260004E79AD /* SegmentedProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedProgressBarView.swift; sourceTree = "<group>"; };
+		EAE42B401E6D6260004E79AD /* SegmentedProgressBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentedProgressBarView.xib; sourceTree = "<group>"; };
+		EAE42B461E6D647F004E79AD /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,25 @@
 		EAE42B2C1E6D6246004E79AD /* Wave */ = {
 			isa = PBXGroup;
 			children = (
-				EAE42B2D1E6D6246004E79AD /* AppDelegate.swift */,
+				EAE42B3F1E6D6260004E79AD /* SegmentedProgressBarView.swift */,
+				EAE42B401E6D6260004E79AD /* SegmentedProgressBarView.xib */,
 				EAE42B2F1E6D6246004E79AD /* ViewController.swift */,
 				EAE42B311E6D6246004E79AD /* Main.storyboard */,
+				EAE42B451E6D62DE004E79AD /* Supporting Files */,
+			);
+			path = Wave;
+			sourceTree = "<group>";
+		};
+		EAE42B451E6D62DE004E79AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAE42B461E6D647F004E79AD /* ReusableView.swift */,
+				EAE42B2D1E6D6246004E79AD /* AppDelegate.swift */,
 				EAE42B341E6D6246004E79AD /* Assets.xcassets */,
 				EAE42B361E6D6246004E79AD /* LaunchScreen.storyboard */,
 				EAE42B391E6D6246004E79AD /* Info.plist */,
 			);
-			path = Wave;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +143,7 @@
 			files = (
 				EAE42B381E6D6246004E79AD /* LaunchScreen.storyboard in Resources */,
 				EAE42B351E6D6246004E79AD /* Assets.xcassets in Resources */,
+				EAE42B431E6D6260004E79AD /* SegmentedProgressBarView.xib in Resources */,
 				EAE42B331E6D6246004E79AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE42B421E6D6260004E79AD /* SegmentedProgressBarView.swift in Sources */,
 				EAE42B301E6D6246004E79AD /* ViewController.swift in Sources */,
 				EAE42B2E1E6D6246004E79AD /* AppDelegate.swift in Sources */,
+				EAE42B471E6D647F004E79AD /* ReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
